@@ -1,18 +1,17 @@
 import type { Component } from 'solid-js';
 
 import logo from './logo.svg';
-import styles from './App.module.css';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
+    <div class='text-center'>
+      <header class='bg-[#282c34] min-h-screen flex flex-col items-center justify-center text-[calc(10px + 2vmin)] text-white'>
+        <img src={logo} class='animate-[spin_5s_linear_infinite] pointer-events-none h-60' alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
-          class={styles.link}
+          class='text-[#b318f0]'
           href="https://github.com/solidjs/solid"
           target="_blank"
           rel="noopener noreferrer"
